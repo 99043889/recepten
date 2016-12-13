@@ -1,8 +1,8 @@
 body {
 	background-color: #F9F9F9;
     margin: auto;
-    width: 500px; 
-    font-family: arial, sans-serif;
+    width: 650px; 
+    font-family: sans-serif;
 }
 
 div.list {
@@ -15,8 +15,6 @@ div.list {
 }
 
 ol {
-
-
     border: 1px solid #C0C0C0;
 }
 
@@ -30,29 +28,42 @@ ol li {
 }
 
 ul {
-    list-style-type: square;
+    display: block;
     list-style-position: inside;
     border: 1px solid #C0C0C0;
 }
 
 ul li {
     border-bottom: 1px solid #C0C0C0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
     text-align: left;
+    list-style-type: square;
+
+}
+
+ul li:hover {
+    background-color: #f5f5f5;
 }
 
 div.head {
-    border: 1px solid black;
-    padding: 0px;
+
+    padding: 1px;
     margin-top: 0px;
     margin-bottom: 10px;
     background-color:  #F4A460;
     text-align: center;
 }
 
+.image {
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
 footer {
-	border: 1px solid black;
+
 	padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -61,9 +72,21 @@ footer {
 	text-align: right;
 }
 
-
-h4, h2 {
-    text-align: center;
-
+h3 {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    background-color: #FFF5EB;
+    margin: 0px auto;
+    font-weight: normal;
 }
 
+h4 {
+    text-align: center;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
